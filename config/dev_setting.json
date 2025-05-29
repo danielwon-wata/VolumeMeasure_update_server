@@ -19,7 +19,7 @@
     "heartBeat": true
   },
   "file": {
-    "read_file": false,
+    "read_file": true,
     "read_file_name": "data/angle_test_3_w106_l106_h160.pcd",
     "save_file": false,
     "save_file_name": "data/angle_test_4_ w42_l25_5_h26_5.pcd"
