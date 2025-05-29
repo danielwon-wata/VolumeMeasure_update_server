@@ -8,10 +8,6 @@
     {
       "path": "config/config.json",
       "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/config/config.json"
-    },
-    {
-      "path": "config/dev_setting.json",
-      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/config/dev_setting.json"
     }
   ]
 }
