@@ -1,0 +1,54 @@
+{
+  "iteration": 500,
+  "roi": {
+    // 험프리
+    "roi_y_start": 0, // 전방 // -350
+    "roi_y_end": -1650, // 후방 
+    "roi_z_start": -200, // 왼쪽
+    "roi_z_end": 1200, //1200 // 오른쪽
+    "roi_angle": 0, // 각도
+    "V_x_start": -300, // 부피측정 윗부분
+    "V_x_end": -2400 // 부피측정 아랫부분
+    // 광주 창고
+    // "roi_y_start": 0,  // 전방
+    // "roi_y_end": -1650,   // 후방
+    // "roi_z_start": -200,  // 왼쪽
+    // "roi_z_end": 1100,    // 오른쪽
+    // "roi_angle": 0,        // 각도
+    // "heights": [
+    //   { "label": "stage1", "roi_x_start":-410, "roi_x_end":-2400 }, //-2395
+    //   { "label": "stage2", "roi_x_start":1590, "roi_x_end":-280 },
+    //   { "label": "stage3", "roi_x_start":3590, "roi_x_end":1720 },
+    //   { "label": "stage4", "roi_x_start":5590, "roi_x_end":3720 }
+    // ],
+    //"heights": [
+    //  { "label": "stage1", "roi_x_start":-270, "roi_x_end":-2400 }, //-2395
+    //  { "label": "stage2", "roi_x_start":1590, "roi_x_end":-120 },
+    //  { "label": "stage3", "roi_x_start":3610, "roi_x_end":1740 },
+    //  { "label": "stage4", "roi_x_start":5600, "roi_x_end":3760 }
+    //],
+    // "rack_shelf_ranges": [
+    //   { "label": "shelf_1_2", "start": -410, "end": -280 },
+    //   { "label": "shelf_2_3", "start": 1590, "end": 1720 },
+    //   { "label": "shelf_3_4", "start": 3590, "end": 3720 }
+    // ]
+    //"rack_shelf_ranges": [
+    //  { "label": "shelf_1_2", "start": -270, "end": -120 },
+    //  { "label": "shelf_2_3", "start": 1590, "end": 1740 },
+    //  { "label": "shelf_3_4", "start": 3610, "end": 3760 }
+    //]
+  },
+  "file": {
+    "read_file": true,
+    "read_file_name": "data/CounterBalance_h91_w95_l89.pcd",
+    "save_file": false, 
+//    "save_file_name": "data/WATAhouse_Volume_w115_l92_h77.pcd" 
+    "save_file_name": "data/CounterBalance_h119_w98_l81.pcd" 
+ 
+  },
+  "removeOutlier": {
+    "mean_k": 30, // 점개수 
+    "threshold": 1.2 // 표준오차
+  },
+  "height_threshold": 2048 // 원래 높이(2835)-파레트(140)+거리센서임계값(60)
+}

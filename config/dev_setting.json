@@ -1,0 +1,27 @@
+{
+  "iteration": 500,
+  "removeOutlier": {
+    "mean_k": 65,
+    "threshold": 1.4 
+  },
+  "reach_height": 2258,
+  "counterbalance_height": 2096,
+  
+  // 버튼 enable/disable 플래그
+  "flags": {
+    "detectPlaneYZ": true,
+    "loadROI": false,
+    "rawCloud": false,
+    "intensity": false,
+    "dualEmit": false,
+    "reachOffCounter": true, // Reach = true , CounterBalance = false
+    "replay": true,
+    "heartBeat": true
+  },
+  "file": {
+    "read_file": true,
+    "read_file_name": "data/angle_test_3_w106_l106_h160.pcd",
+    "save_file": false,
+    "save_file_name": "data/angle_test_4_ w42_l25_5_h26_5.pcd"
+  }
+}

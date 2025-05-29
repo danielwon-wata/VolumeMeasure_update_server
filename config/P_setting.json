@@ -1,0 +1,24 @@
+{
+  "iteration": 500,
+  "roi": {
+    "roi_y_start": 0, 
+    "roi_y_end": -1650,
+    "roi_z_start": -200,
+    "roi_z_end": 1100, 
+    "roi_angle": 0,
+    "V_x_start": -300, 
+    "V_x_endㅣㅑ퍁": -2400 
+  },
+  "file": {
+    "read_file": true,
+    "read_file_name": "data/TEST_CounterBalanced_2.pcd",
+    "save_file": false,
+    "save_file_name": "data/test1.pcd"
+
+  },
+  "removeOutlier": {
+    "mean_k": 50, 
+    "threshold": 1.5 
+  },
+  "height_threshold": 2288 
+}
