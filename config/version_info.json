@@ -4,6 +4,10 @@
     {
       "path": "Dev_Volume.exe",
       "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/Dev_Volume.exe"
+    },
+    {
+      "path": python312.dll,
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/python312.dll"
     }
   ]
 }
