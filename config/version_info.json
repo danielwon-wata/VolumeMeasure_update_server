@@ -8,6 +8,14 @@
     {
       "path": "python312.dll",
       "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/python312.dll"
+    },
+    {
+      "path": "icons/icon_height_only.png",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/icons/icon_height_only.png"
+    },
+    {
+      "path": "icons/icon_height_width_length.png",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/icons/icon_height_width_length.png"
     }
-  ]
+  ] 
 }
