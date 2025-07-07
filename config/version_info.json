@@ -2,8 +2,8 @@
   "version": "1.2.5",
   "files": [
     {
-      "path": "Dev_Volume_test1.exe",
-      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/Dev_Volume_test1.exe"
+      "path": "Dev_Volume.exe",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/Dev_Volume.exe"
     },
     {
       "path": "icons/icon_height_only.png",
