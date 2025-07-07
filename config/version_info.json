@@ -1,13 +1,9 @@
 {
-  "version": "1.1.3",
+  "version": "1.2.5",
   "files": [
     {
-      "path": "Dev_Volume.exe",
+      "path": "Dev_Volume_test1.exe",
       "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/Dev_Volume.exe"
-    },
-    {
-      "path": "python312.dll",
-      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/python312.dll"
     },
     {
       "path": "icons/icon_height_only.png",
@@ -16,6 +12,42 @@
     {
       "path": "icons/icon_height_width_length.png",
       "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/icons/icon_height_width_length.png"
+    },
+    {
+      "path": "icons/icon_volume_off.png",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/icons/icon_volume_off.png"
+    },
+    {
+      "path": "icons/icon_volume_on.png",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/icons/icon_volume_on.png"
+    },
+    {
+      "path": "icons/icon_tuning_off.png",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/icons/icon_tuning_off.png"
+    },
+    {
+      "path": "icons/icon_tuning_on.png",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/icons/icon_tuning_on.png"
+    },
+    {
+      "path": "opencv_highgui4110d.dll",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/opencv_highgui4110d.dll"
+    },
+        {
+      "path": "opencv_imgproc4110d.dll",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/opencv_imgproc4110d.dll"
+    },
+    {
+      "path": "opencv_imgcodecs4110d.dll",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/opencv_imgcodecs4110d.dll"
+    },
+    {
+      "path": "opencv_videoio4110d.dll",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/opencv_videoio4110d.dll"
+    },
+    {
+      "path": "opencv_core4110d.dll",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/opencv_core4110d.dll"
     }
   ] 
 }
