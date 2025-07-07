@@ -48,6 +48,14 @@
     {
       "path": "opencv_core4110d.dll",
       "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/opencv_core4110d.dll"
+    },
+    {
+      "path": "config/devTEST_setting.json",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/config/devTEST_setting.json"
+    },
+    {
+      "path": "updater.exe",
+      "url": "https://raw.githubusercontent.com/danielwon-wata/VolumeMeasure_update_server/main/updater.exe"
     }
   ] 
 }
