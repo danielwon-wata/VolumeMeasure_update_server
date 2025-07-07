@@ -1,0 +1,31 @@
+{
+    "counterbalance_height": 2100,
+    "reach_height": 2258,
+    "file": {
+        "read_file": false,
+        "read_file_name": "reach/reach_iter1000_w870_l1060_h1650_C2-1-C-A.pcd",
+        "save_file": false,
+        "save_file_name": "data/counter_changeFIXTURE_iter1000_w880_l635_h1250.pcd"
+    },
+    "flags": {
+        "detectPlaneYZ": false,
+        "heartBeat": true,
+        "heightOnly": true,
+        "intensity": false,
+        "loadROI": true,
+        "rawCloud": false,
+        "reachOffCounter": true,
+        "replay": false,
+        "tuning": {
+            "enable": false,
+            "all_files": false,
+            "folder": "reach"            
+        },
+        "volume": true
+    },
+    "iteration": 1000,
+    "removeOutlier": {
+        "mean_k": 65,
+        "threshold": 1.4
+    }
+}
